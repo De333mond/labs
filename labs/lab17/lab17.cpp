@@ -118,7 +118,6 @@ void num5() {
                 cout << i << " " << j << endl;
             }
         }
-         
     }
 }
 
