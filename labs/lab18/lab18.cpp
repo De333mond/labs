@@ -62,7 +62,6 @@ void num2() {
 
 }
 
-
 void num3() {
     const int n = 5;
 
@@ -131,7 +130,6 @@ void num4() {
 
 }
 
-
 void num5() {
     const int n = 5;
 
@@ -157,6 +155,7 @@ void num5() {
     cout << "\n----------------" << endl;
 
 }
+
 int main()
 {
     num5();
