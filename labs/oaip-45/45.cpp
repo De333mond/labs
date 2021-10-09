@@ -2,8 +2,8 @@
 
 using namespace std;
 
-void swap(int *a, int *b) {
-    int *t = a;
+void swap(int &a, int &b) {
+    int t = a;
     a = b;
     b = t;
 }
