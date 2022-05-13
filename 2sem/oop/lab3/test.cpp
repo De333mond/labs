@@ -2,29 +2,19 @@
 
 using namespace std;
 
-class foo
+struct employee
 {
-private:
-    // (в смысле "объЯвлениЯ")
-public:
-    foo() // инкрементирование при создании объекта
-    {
-        count++;
-    }
-    int getcount() // возвращает значение count
-    {
-        return count;
-    }
+    enum etype {a,b,c,d};
+    etype type;
 };
-//‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐‐
-int foo::count = 0; // *определение* count
 
-int main()
-{
 
-    asd a;
+int main() {
 
-    cout << "sdf" << endl;
+    employee::etype type;
+    type = employee::a;
 
-    return 0;
+
+
+return 0;
 }

@@ -4,6 +4,8 @@
         "optional": "cpp",
         "algorithm": "cpp",
         "istream": "cpp",
-        "streambuf": "cpp"
+        "streambuf": "cpp",
+        "xstring": "cpp",
+        "iostream": "cpp"
     }
 }

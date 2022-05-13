@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 26.0.2, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px"
+	 viewBox="0 0 595.28 841.89" style="enable-background:new 0 0 595.28 841.89;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#878787;}
+	.st1{fill:#AA3A3A;}
+	.st2{fill:none;stroke:#FFFFFF;stroke-width:7;stroke-miterlimit:10;}
+	.st3{fill:none;stroke:#FFFFFF;stroke-width:7;stroke-miterlimit:10;stroke-dasharray:11.9036,11.9036;}
+	.st4{fill:url(#light_00000100361806090636465780000014227154938071454353_);}
+	.st5{fill:#F3EA11;}
+	.st6{fill:#FFFFFF;}
+	.st7{fill:#B0B0B0;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
+</style>
+<rect id="road" y="287.06" class="st0" width="595.28" height="133.89"/>
+<g id="crossline">
+	<line class="st1" x1="0" y1="354" x2="595.28" y2="354"/>
+	<g>
+		<line class="st2" x1="0" y1="354" x2="6" y2="354"/>
+		<line class="st3" x1="17.9" y1="354" x2="583.32" y2="354"/>
+		<line class="st2" x1="589.28" y1="354" x2="595.28" y2="354"/>
+	</g>
+</g>
+<linearGradient id="light_00000025419253746469368970000013735266462316689298_" gradientUnits="userSpaceOnUse" x1="392.0441" y1="305.1158" x2="392.0441" y2="475.2296" gradientTransform="matrix(6.123234e-17 -1 1 6.123234e-17 -53.1138 754.5073)">
+	<stop  offset="0" style="stop-color:#FFF33B"/>
+	<stop  offset="1" style="stop-color:#FFF200;stop-opacity:0"/>
+</linearGradient>
+<polygon id="light" style="fill:url(#light_00000025419253746469368970000013735266462316689298_);" points="252,362.46 
+	422.12,401.04 422.12,323.89 "/>
+<rect id="body1" x="48.91" y="356.15" class="st5" width="218.78" height="30.82"/>
+<rect id="body2" x="56.49" y="301.58" class="st5" width="143.49" height="54.57"/>
+<rect id="window1" x="88.82" y="310.67" class="st6" width="40.56" height="37.44"/>
+<rect id="window2" x="154.87" y="310.67" class="st6" width="40.56" height="37.44"/>
+<ellipse id="whieel1" class="st7" cx="77.2" cy="386.97" rx="17.68" ry="19.45"/>
+<ellipse id="wheel2" class="st7" cx="225.75" cy="386.97" rx="17.68" ry="19.45"/>
+</svg>

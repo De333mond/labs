@@ -1,0 +1,98 @@
+%!Adobe-FontList 1.23
+%Locale:0x419
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:Type1
+FontName:MinionPro-Regular
+FamilyName:Minion Pro
+StyleName:Regular
+FullName:Minion Pro
+MenuName:Minion Pro
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Dezzy\Desktop\labs\ВвТОЦК\211_728_Бунаков_лаб5_01_04_22\relese\Document fonts\MinionPro-Regular.otf
+DataFormat:sfntData
+UsesStandardEncoding:yes
+isCFF:yes
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:218640
+FileModTime:1647460398
+WeightClass:400
+WidthClass:5
+AngleClass:0
+DesignSize:110
+NameArray:0,Mac,4,Minion Pro
+NameArray:0,Win,1,Minion Pro
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ComicSansMS
+FamilyName:Comic Sans MS
+StyleName:Regular
+FullName:Comic Sans MS
+MenuName:Comic Sans MS
+StyleBits:0
+WritingScript:Roman
+OutlineFileName:C:\Users\Dezzy\Desktop\labs\ВвТОЦК\211_728_Бунаков_лаб5_01_04_22\relese\Document fonts\comic.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:245600
+FileModTime:1575709706
+WeightClass:400
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Comic Sans MS
+NameArray:0,Win,1,Comic Sans MS
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ComicSansMS-Bold
+FamilyName:Comic Sans MS
+StyleName:Bold
+FullName:Comic Sans MS Bold
+MenuName:Comic Sans MS
+StyleBits:2
+WritingScript:Roman
+OutlineFileName:C:\Users\Dezzy\Desktop\labs\ВвТОЦК\211_728_Бунаков_лаб5_01_04_22\relese\Document fonts\comicbd.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:229408
+FileModTime:1575709706
+WeightClass:700
+WidthClass:5
+AngleClass:0
+NameArray:0,Mac,4,Comic Sans MS Bold
+NameArray:0,Win,1,Comic Sans MS
+%EndFont
+
+%BeginFont
+Handler:DirectoryHandler
+FontType:TrueType
+FontName:ComicSansMS-Italic
+FamilyName:Comic Sans MS
+StyleName:Italic
+FullName:Comic Sans MS Italic
+MenuName:Comic Sans MS
+StyleBits:1
+WritingScript:Roman
+OutlineFileName:C:\Users\Dezzy\Desktop\labs\ВвТОЦК\211_728_Бунаков_лаб5_01_04_22\relese\Document fonts\comici.ttf
+DataFormat:sfntData
+hasSVG:no
+VariableFontType:NonVariableFont
+FileLength:226708
+FileModTime:1575709706
+WeightClass:400
+WidthClass:5
+AngleClass:1
+NameArray:0,Mac,4,Comic Sans MS Italic
+NameArray:0,Win,1,Comic Sans MS
+%EndFont
+

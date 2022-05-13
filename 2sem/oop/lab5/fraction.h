@@ -27,6 +27,7 @@ public:
         denumerator = 1;
     }
 
+
     void setFrac(int num, int denum){
         numerator = num;
         denumerator = denum;
@@ -51,6 +52,8 @@ public:
         int tnum = numerator;
         int tdenum = denumerator;
         
+        
+
         while (abs(tnum-tdenum) != 0)
         {
             if (tnum > tdenum)    

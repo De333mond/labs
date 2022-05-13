@@ -29,7 +29,7 @@ using namespace std;
 
 int main() {
 
-    int n = 12;
+    int n = 6;
     
 
     fraction table[n][n]; 

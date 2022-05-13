@@ -227,7 +227,14 @@ int main() {
     {
         cout << "Введите данные о " << i + 1 << " сотруднике(номер, пособие, дату приема, первую букву должности): ";
         // cin >> num >> fee >> d >> letter >> m >> letter >> y >> letter;
+        num = rand()%30;
+        fee = rand()%1000;
+        d = rand()%30; 
+        m = rand()%12;
+        y = 2015 + rand()%4 - 1;
+        letter = "lsmaer"[rand()%6];
         date.setDate(d,m,y);
+        cout << num << " " << fee << " " << d << " / " << m << " / " << y << " " << letter << endl;
         emps[i].setValues(num, fee, date, letter); 
     }
 
@@ -283,13 +290,13 @@ int main() {
         n = rand() % 20;
         d = rand() % 20 + 1;
         f1.setFrac(n,d);
-        cout << n << '/' << d << endl;
+        cout << n << ' / ' << d << endl;
         
         cout << "Введите вторую дробь в формате n/d: ";
         // cin >> n >> dumm >> d;
         n = rand() % 20;
         d = rand() % 20 + 1;
-        cout << n << '/' << d << endl;
+        cout << n << ' / ' << d << endl;
         f2.setFrac(n,d);
         
         f1.add(f2);

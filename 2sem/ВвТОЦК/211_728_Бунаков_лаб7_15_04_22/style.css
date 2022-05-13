@@ -1,0 +1,155 @@
+.st0{fill:#878787;}
+.st1{fill:#AA3A3A;}
+.st2{fill:none;stroke:#FFFFFF;stroke-width:7;stroke-miterlimit:10;}
+.st3{fill:none;stroke:#FFFFFF;stroke-width:7;stroke-miterlimit:10;stroke-dasharray:11.9036,11.9036;}
+.st4{fill:url(#light_00000101811841842653502700000008030335314089329553_);}
+.st5{fill:#F3EA11;}
+.st6{fill:#FFFFFF;}
+.st7{fill:#B0B0B0;stroke:#000000;stroke-width:5;stroke-miterlimit:10;}
+
+.layer{
+	padding: 15px;
+	margin: auto;
+	max-height: 1000px;
+}
+
+  
+#body1, #body2{
+	opacity: 0;
+	transform-origin: up; 
+	animation-name: linear_emerging; 	  
+	animation-duration:1s; 
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode:forwards; 
+}
+
+#body2{
+	animation-delay: 0.5s;
+}
+
+#wheel1, #wheel2{
+	opacity: 0;
+	animation-name: wheel_emerging, rotating; 	  
+	animation-duration:1s, 1s; 
+	animation-iteration-count: 1, 10;
+	animation-timing-function: linear;
+	animation-fill-mode:forwards;
+	animation-delay: 0.75s, 2s;
+}
+
+#wheel1{
+	transform-origin: 77.2px 386.97px; 
+}
+
+#wheel2{
+	transform-origin: 225.75px 386.97px; 
+}
+
+#light{
+	opacity: 0;
+	/* animation: blight 1s linear 2s 1 ltr forwards; */
+	animation-name: blight;
+	animation-duration: 1s;
+	animation-delay: 2s;
+	animation-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+	animation-fill-mode: forwards;
+	transform-origin: center;
+}
+
+#car{
+	/* animation: car 10s linear 3s 1 ltr forwards; */
+	animation-name: car;
+	animation-duration: 10s;
+	animation-delay: 2s;
+	animation-timing-function: linear;
+	animation-fill-mode: forwards;
+	transform-origin: center;
+}
+
+
+
+#window1, #window2{
+	transform-origin: 88.82px, 310.67px;
+	animation-name: center_emerging;
+	animation-duration: 1s;
+	animation-delay: 1s;
+	animation-iteration-count: 1;
+	animation-timing-function: ease-in-out;
+	animation-fill-mode: both;
+}
+
+
+#window2{
+	transform-origin: 154.87px, 310.67px;
+}
+
+
+  
+
+@keyframes center_emerging {
+	from{
+		transform: scale(0);
+		/* opacity: 0; */
+	}
+	to{
+		transform: scale(1);
+		/* opacity: 1;	 */
+	}
+}
+
+
+@keyframes linear_emerging{
+    from {
+        transform: translate(0px, -100px);
+        opacity: 0;
+    }
+	
+    to {
+		transform: translate(0px, 0px);
+        /* transform: scale(1, 1); */
+        opacity: 1;
+    }
+}
+
+@keyframes wheel_emerging{
+    from {
+        transform: translate(0px, 50px);
+        opacity: 0;
+    }
+	
+    to {
+		transform: translate(0px, 0px);
+        /* transform: scale(1, 1); */
+        opacity: 1;
+    }
+}
+   
+@keyframes rotating {
+	from{
+		transform: rotate(0turn);
+	}
+	to{
+		transform: rotate(1turn);
+		
+	}
+}
+
+@keyframes blight {
+	from{
+		opacity: 0;
+	}
+	to{
+		opacity: 1;
+	}
+}
+
+@keyframes car {
+	from{
+		transform: translateX(0);
+	}
+	to{
+		transform: translateX(300px);
+	}
+}
+
